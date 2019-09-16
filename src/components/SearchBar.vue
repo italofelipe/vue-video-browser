@@ -23,7 +23,10 @@ body {
   border: 1px solid #ccc;
   padding: 10px 20px;
   box-shadow: 3px 3px 3px #ababab;
-  width: 40vw;
+  width: 60vw;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
 }
 .video-input {
   border-top: none;
@@ -31,5 +34,6 @@ body {
   border-right: none;
   border-bottom: 1px solid #999;
   padding: 10px 5px;
+  width: 85%;
 }
 </style>

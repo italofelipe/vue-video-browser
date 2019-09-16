@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <h3>Hello Vue!</h3>
+  <div class="container">
+    <h3>YouTube Made With Vue</h3>
     <SearchBar @termChange="onTermChange"></SearchBar>
 
     <VideoList v-bind:videos="videos" />
